@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Weight</title>
+<meta name="theme-color" content="#111214">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Weight">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="top">
+  <button id="back" class="icon-btn" hidden aria-label="Zurück">‹</button>
+  <h1 id="title">Training</h1>
+</header>
+<main id="view"></main>
+<nav id="tabs">
+  <button data-tab="training" class="active">Training</button>
+  <button data-tab="setup">Einrichten</button>
+</nav>
+<dialog id="modal"><form id="modal-form" method="dialog"></form></dialog>
+<script src="app.js"></script>
+</body>
+</html>
